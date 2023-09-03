@@ -1,6 +1,7 @@
 import directories.WorksheetOneDir.WorksheetOne;
 import directories.WorksheetTwoDir.WorksheetTwo;
 import directories.WorksheetThreeDir.WorksheetThree;
+import directories.WorksheetFourDir.WorksheetFour;
 
 import java.util.Scanner;
 
@@ -16,7 +17,7 @@ public class App {
 
         if (projectNum == 0) {
           mainProjectDirRunning = false; // Exit the loop
-        } else if (projectNum >= 1 && projectNum <= 3) {
+        } else if (projectNum >= 1 && projectNum <= 4) {
           System.out.print("\n");
           callDir(projectNum, args);
         } else {
@@ -43,6 +44,9 @@ public class App {
         break;
       case 3:
         WorksheetThree.main(args);
+        break;
+      case 4:
+        WorksheetFour.main(args);
         break;
     }
   }
