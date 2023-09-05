@@ -6,17 +6,17 @@ This is a collection of my friend and I's Java work from our 7th period Java ele
 ├───.vscode
 ├───bin
 │   └───directories
-│       ├───WorksheetFourDir
 │       ├───WorksheetOneDir
-│       ├───WorksheetThreeDir
-│       └───WorksheetTwoDir
+|       ├───WorksheetTwoDir
+|       ├───WorksheetThreeDir
+|       └───WorksheetFourDir
 ├───lib
 └───src
     └───directories
-        ├───WorksheetFourDir
         ├───WorksheetOneDir
+        ├───WorksheetTwoDir
         ├───WorksheetThreeDir
-        └───WorksheetTwoDir
+        └───WorksheetFourDir
 ```
 
 Java-School is the main folder and these are the subfolders inside:
