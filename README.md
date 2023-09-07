@@ -9,6 +9,7 @@ This is a collection of my friend and I's Java work from our 7th period Java ele
 │       ├───WorksheetFiveDir
 │       ├───WorksheetFourDir
 │       ├───WorksheetOneDir
+│       ├───WorksheetSixDir
 │       ├───WorksheetThreeDir
 │       └───WorksheetTwoDir
 ├───lib
@@ -17,6 +18,7 @@ This is a collection of my friend and I's Java work from our 7th period Java ele
         ├───WorksheetFiveDir
         ├───WorksheetFourDir
         ├───WorksheetOneDir
+        ├───WorksheetSixDir
         ├───WorksheetThreeDir
         └───WorksheetTwoDir
 ```
