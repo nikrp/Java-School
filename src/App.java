@@ -3,6 +3,7 @@ import directories.WorksheetTwoDir.WorksheetTwo;
 import directories.WorksheetThreeDir.WorksheetThree;
 import directories.WorksheetFourDir.WorksheetFour;
 import directories.WorksheetFiveDir.WorksheetFive;
+import directories.WorksheetSixDir.WorksheetSix;
 
 import java.util.Scanner;
 
@@ -18,11 +19,11 @@ public class App {
 
         if (projectNum == 0) {
           mainProjectDirRunning = false; // Exit the loop
-        } else if (projectNum >= 1 && projectNum <= 5) {
+        } else if (projectNum >= 1 && projectNum <= 6) {
           System.out.print("\n");
           callDir(projectNum, args);
         } else {
-          System.out.println("Invalid input. Please enter a number between 1 and 5 (inclusive).");
+          System.out.println("Invalid input. Please enter a number between 1 and 6 (inclusive).");
         }
       } catch (Exception e) {
         System.out.println("Invalid input. Please enter a valid integer.");
@@ -52,6 +53,8 @@ public class App {
       case 5:
         WorksheetFive.main(args);
         break;
+      case 6:
+        WorksheetSix.main(args);
     }
   }
 }

@@ -1,15 +1,15 @@
-package directories.WorksheetFiveDir;
+package directories.WorksheetSixDir;
 
 import java.util.Scanner;
 
-public class WorksheetFive {
+public class WorksheetSix {
     public static void main(String[] args) {
     Scanner in = new Scanner(System.in);
-    boolean wkFiveDone = false;
+    boolean wkSixDone = false;
 
-    System.out.println("Your are in \"Worksheet Five: String Operations\"");
+    System.out.println("Your are in \"Worksheet Six: Integer Operations\"");
 
-    while (!wkFiveDone) {
+    while (!wkSixDone) {
       try {
         System.out.print("Enter a project number: ");
         int projectNum = in.nextInt();
@@ -17,9 +17,9 @@ public class WorksheetFive {
         System.out.println("");
 
         if (projectNum == 0) {
-          wkFiveDone = true;
+          wkSixDone = true;
           continue;
-        } else if (projectNum >= 1 && projectNum <= 5) {
+        } else if (projectNum >= 1 && projectNum <= 3) {
           callProject(projectNum, args);
         }
       } catch (Exception e) {
@@ -31,20 +31,26 @@ public class WorksheetFive {
   public static void callProject(int projectNum, String[] args) {
     switch (projectNum) {
       case 1:
-        GoogleDotComConcats.main(args);
+        VolleyballTeamCalcs.main(args);
         break;
       case 2:
-        StringOverride.main(args);
+        TwoNumSplit.main(args);
         break;
       case 3:
-        AddressConcats.main(args);
-        break;
-      case 4:
-        BusinessNameToNormal.main(args);
-        break;
-      case 5:
-        PhraseOperations.main(args);
+        ThreeNumSplit.main(args);
         break;
     }
+  }
+
+  public static int countDigits(int num) {
+    int temp = 1;
+    int count = 0;
+
+    while (temp <= num) {
+        temp *= 10;
+        count  += 1;
+    }
+
+    return count;
   }
 }
