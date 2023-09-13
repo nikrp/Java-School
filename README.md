@@ -5,24 +5,20 @@ This is a collection of my friend and I's Java work from our 7th period Java ele
 ```
 ├───.vscode
 ├───bin
-│   ├───directories
-│   │   ├───WorksheetFiveDir
-│   │   ├───WorksheetFourDir
-│   │   ├───WorksheetOneDir
-│   │   ├───WorksheetSixDir
-│   │   ├───WorksheetThreeDir
-│   │   └───WorksheetTwoDir
-│   └───projects
+│   └───directories
+│       ├───WorksheetFiveDir
+│       ├───WorksheetFourDir
+│       ├───WorksheetOneDir
+│       ├───WorksheetThreeDir
+│       └───WorksheetTwoDir
 ├───lib
 └───src
-    ├───directories
-    │   ├───WorksheetFiveDir
-    │   ├───WorksheetFourDir
-    │   ├───WorksheetOneDir
-    │   ├───WorksheetSixDir
-    │   ├───WorksheetThreeDir
-    │   └───WorksheetTwoDir
-    └───projects
+    └───directories
+        ├───WorksheetFiveDir
+        ├───WorksheetFourDir
+        ├───WorksheetOneDir
+        ├───WorksheetThreeDir
+        └───WorksheetTwoDir
 ```
 
 Java-School is the main folder and these are the subfolders inside:
