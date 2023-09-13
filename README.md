@@ -5,20 +5,24 @@ This is a collection of my friend and I's Java work from our 7th period Java ele
 ```
 ├───.vscode
 ├───bin
-│   └───directories
-│       ├───WorksheetFiveDir
-│       ├───WorksheetFourDir
-│       ├───WorksheetOneDir
-│       ├───WorksheetThreeDir
-│       └───WorksheetTwoDir
+│   ├───directories
+│   │   ├───WorksheetFiveDir
+│   │   ├───WorksheetFourDir
+│   │   ├───WorksheetOneDir
+│   │   ├───WorksheetSixDir
+│   │   ├───WorksheetThreeDir
+│   │   └───WorksheetTwoDir
+│   └───projects
 ├───lib
 └───src
-    └───directories
-        ├───WorksheetFiveDir
-        ├───WorksheetFourDir
-        ├───WorksheetOneDir
-        ├───WorksheetThreeDir
-        └───WorksheetTwoDir
+    ├───directories
+    │   ├───WorksheetFiveDir
+    │   ├───WorksheetFourDir
+    │   ├───WorksheetOneDir
+    │   ├───WorksheetSixDir
+    │   ├───WorksheetThreeDir
+    │   └───WorksheetTwoDir
+    └───projects
 ```
 
 Java-School is the main folder and these are the subfolders inside:
@@ -34,6 +38,8 @@ Java-School is the main folder and these are the subfolders inside:
     - All of the `.java` files go into this folder.
     - This is technically the main folder of the project.
     - Others are still important as they are output files and other paths Java needs.
+    - `/directories` is for all my worksheets that I do. This is called from `src/App.java`.
+    - `/projects` is for all my final unit projects. This is called from `src/Projects.java`.
 ## Usage
 > Different components from Java are used in these projects but the most significant in the Scanner class.
 
