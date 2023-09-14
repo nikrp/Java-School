@@ -13,6 +13,7 @@ This is a collection of my friend and I's Java work from our 7th period Java ele
 │   │   ├───WorksheetThreeDir
 │   │   └───WorksheetTwoDir
 │   └───projects
+│       └───UnitOneProjectDir
 ├───lib
 └───src
     ├───directories
@@ -23,6 +24,7 @@ This is a collection of my friend and I's Java work from our 7th period Java ele
     │   ├───WorksheetThreeDir
     │   └───WorksheetTwoDir
     └───projects
+        └───UnitOneProjectDir
 ```
 
 Java-School is the main folder and these are the subfolders inside:

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-import projects.UnitOneProject;
+import projects.UnitOneProjectDir.UnitOneProject;
 
 public class Projects {
     public static void main(String[] args) {

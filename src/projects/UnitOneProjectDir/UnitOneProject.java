@@ -14,7 +14,7 @@
 */
 
 // Package the Project so it's Available to Projects.java Outside this Directory
-package projects;
+package projects.UnitOneProjectDir;
 
 // Import Required Modules
 import java.util.Scanner;
