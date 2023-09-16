@@ -14,7 +14,7 @@
 */
 
 // Package the Project so it's Available to Projects.java Outside this Directory
-package projects.UnitOneProjectDir;
+package projects;
 
 // Import Required Modules
 import java.util.Scanner;
@@ -23,7 +23,7 @@ import java.util.List;
 import java.util.HashMap;
 import java.util.Map;
 
-public class UnitOneProject {
+public class UnitOneOneProject {
   public static void main(String[] args) {
     // Create the Scanner Object to Ask for User Input
     Scanner in = new Scanner(System.in);

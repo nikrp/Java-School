@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-import projects.UnitOneProjectDir.UnitOneProject;
+import projects.UnitOneOneProject;
+import projects.UnitOneTwoProject;
 
 public class Projects {
     public static void main(String[] args) {
@@ -17,10 +18,10 @@ public class Projects {
                 if (projectNum == 0) {
                     running = false;
                     continue;
-                } else if (projectNum >= 1 && projectNum <= 1) {
+                } else if (projectNum >= 1 && projectNum <= 2) {
                     callProject(projectNum, args);
                 } else {
-                    System.out.println("Enter a number between 1 and 1 (inclusive)!");
+                    System.out.println("Enter a number between 1 and 2 (inclusive)!");
                 }
             } catch (Exception e) {
                 in.nextLine();
@@ -35,8 +36,10 @@ public class Projects {
     public static void callProject(int projectNum, String[] args) {
         switch (projectNum) {
             case 1:
-                UnitOneProject.main(args);
+                UnitOneOneProject.main(args);
                 break;
+            case 2:
+                UnitOneTwoProject.main(args);
         }
     }
 }
