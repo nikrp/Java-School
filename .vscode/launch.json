@@ -1,0 +1,224 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "Java-School_647646bd"
+        },
+        {
+            "type": "java",
+            "name": "AddressConcats",
+            "request": "launch",
+            "mainClass": "directories.WorksheetFiveDir.AddressConcats",
+            "projectName": "Java-School_647646bd"
+        },
+        {
+            "type": "java",
+            "name": "BusinessNameToNormal",
+            "request": "launch",
+            "mainClass": "directories.WorksheetFiveDir.BusinessNameToNormal",
+            "projectName": "Java-School_647646bd"
+        },
+        {
+            "type": "java",
+            "name": "GoogleDotComConcats",
+            "request": "launch",
+            "mainClass": "directories.WorksheetFiveDir.GoogleDotComConcats",
+            "projectName": "Java-School_647646bd"
+        },
+        {
+            "type": "java",
+            "name": "PhraseOperations",
+            "request": "launch",
+            "mainClass": "directories.WorksheetFiveDir.PhraseOperations",
+            "projectName": "Java-School_647646bd"
+        },
+        {
+            "type": "java",
+            "name": "StringOverride",
+            "request": "launch",
+            "mainClass": "directories.WorksheetFiveDir.StringOverride",
+            "projectName": "Java-School_647646bd"
+        },
+        {
+            "type": "java",
+            "name": "WorksheetFive",
+            "request": "launch",
+            "mainClass": "directories.WorksheetFiveDir.WorksheetFive",
+            "projectName": "Java-School_647646bd"
+        },
+        {
+            "type": "java",
+            "name": "HeightCalc",
+            "request": "launch",
+            "mainClass": "directories.WorksheetFourDir.HeightCalc",
+            "projectName": "Java-School_647646bd"
+        },
+        {
+            "type": "java",
+            "name": "MilesGallons",
+            "request": "launch",
+            "mainClass": "directories.WorksheetFourDir.MilesGallons",
+            "projectName": "Java-School_647646bd"
+        },
+        {
+            "type": "java",
+            "name": "RandomCalcs",
+            "request": "launch",
+            "mainClass": "directories.WorksheetFourDir.RandomCalcs",
+            "projectName": "Java-School_647646bd"
+        },
+        {
+            "type": "java",
+            "name": "ScoreYearCalc",
+            "request": "launch",
+            "mainClass": "directories.WorksheetFourDir.ScoreYearCalc",
+            "projectName": "Java-School_647646bd"
+        },
+        {
+            "type": "java",
+            "name": "StringConcats",
+            "request": "launch",
+            "mainClass": "directories.WorksheetFourDir.StringConcats",
+            "projectName": "Java-School_647646bd"
+        },
+        {
+            "type": "java",
+            "name": "WeightCalc",
+            "request": "launch",
+            "mainClass": "directories.WorksheetFourDir.WeightCalc",
+            "projectName": "Java-School_647646bd"
+        },
+        {
+            "type": "java",
+            "name": "WorksheetFour",
+            "request": "launch",
+            "mainClass": "directories.WorksheetFourDir.WorksheetFour",
+            "projectName": "Java-School_647646bd"
+        },
+        {
+            "type": "java",
+            "name": "AsteriskPattern",
+            "request": "launch",
+            "mainClass": "directories.WorksheetOneDir.AsteriskPattern",
+            "projectName": "Java-School_647646bd"
+        },
+        {
+            "type": "java",
+            "name": "NameChart",
+            "request": "launch",
+            "mainClass": "directories.WorksheetOneDir.NameChart",
+            "projectName": "Java-School_647646bd"
+        },
+        {
+            "type": "java",
+            "name": "QuoteName",
+            "request": "launch",
+            "mainClass": "directories.WorksheetOneDir.QuoteName",
+            "projectName": "Java-School_647646bd"
+        },
+        {
+            "type": "java",
+            "name": "WorksheetOne",
+            "request": "launch",
+            "mainClass": "directories.WorksheetOneDir.WorksheetOne",
+            "projectName": "Java-School_647646bd"
+        },
+        {
+            "type": "java",
+            "name": "ThreeNumSplit",
+            "request": "launch",
+            "mainClass": "directories.WorksheetSixDir.ThreeNumSplit",
+            "projectName": "Java-School_647646bd"
+        },
+        {
+            "type": "java",
+            "name": "TwoNumSplit",
+            "request": "launch",
+            "mainClass": "directories.WorksheetSixDir.TwoNumSplit",
+            "projectName": "Java-School_647646bd"
+        },
+        {
+            "type": "java",
+            "name": "VolleyballTeamCalcs",
+            "request": "launch",
+            "mainClass": "directories.WorksheetSixDir.VolleyballTeamCalcs",
+            "projectName": "Java-School_647646bd"
+        },
+        {
+            "type": "java",
+            "name": "WorksheetSix",
+            "request": "launch",
+            "mainClass": "directories.WorksheetSixDir.WorksheetSix",
+            "projectName": "Java-School_647646bd"
+        },
+        {
+            "type": "java",
+            "name": "JavaCompWinners",
+            "request": "launch",
+            "mainClass": "directories.WorksheetThreeDir.JavaCompWinners",
+            "projectName": "Java-School_647646bd"
+        },
+        {
+            "type": "java",
+            "name": "OddString",
+            "request": "launch",
+            "mainClass": "directories.WorksheetThreeDir.OddString",
+            "projectName": "Java-School_647646bd"
+        },
+        {
+            "type": "java",
+            "name": "StudentNameId",
+            "request": "launch",
+            "mainClass": "directories.WorksheetThreeDir.StudentNameId",
+            "projectName": "Java-School_647646bd"
+        },
+        {
+            "type": "java",
+            "name": "WorksheetThree",
+            "request": "launch",
+            "mainClass": "directories.WorksheetThreeDir.WorksheetThree",
+            "projectName": "Java-School_647646bd"
+        },
+        {
+            "type": "java",
+            "name": "AboutMe",
+            "request": "launch",
+            "mainClass": "directories.WorksheetTwoDir.AboutMe",
+            "projectName": "Java-School_647646bd"
+        },
+        {
+            "type": "java",
+            "name": "FidgetCompany",
+            "request": "launch",
+            "mainClass": "directories.WorksheetTwoDir.FidgetCompany",
+            "projectName": "Java-School_647646bd"
+        },
+        {
+            "type": "java",
+            "name": "TwentyThreeSpaces",
+            "request": "launch",
+            "mainClass": "directories.WorksheetTwoDir.TwentyThreeSpaces",
+            "projectName": "Java-School_647646bd"
+        },
+        {
+            "type": "java",
+            "name": "WorksheetTwo",
+            "request": "launch",
+            "mainClass": "directories.WorksheetTwoDir.WorksheetTwo",
+            "projectName": "Java-School_647646bd"
+        }
+    ]
+}
