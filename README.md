@@ -6,6 +6,7 @@ This is a collection of my friend and I's Java work from our 7th period Java ele
 ├───.vscode
 ├───bin
 │   ├───directories
+│   │   ├───WorksheetEightDir
 │   │   ├───WorksheetFiveDir
 │   │   ├───WorksheetFourDir
 │   │   ├───WorksheetOneDir
@@ -14,10 +15,10 @@ This is a collection of my friend and I's Java work from our 7th period Java ele
 │   │   ├───WorksheetThreeDir
 │   │   └───WorksheetTwoDir
 │   └───projects
-│       └───UnitOneProjectDir
 ├───lib
 └───src
     ├───directories
+    │   ├───WorksheetEightDir
     │   ├───WorksheetFiveDir
     │   ├───WorksheetFourDir
     │   ├───WorksheetOneDir

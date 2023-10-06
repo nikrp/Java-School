@@ -7,7 +7,7 @@ public class WorksheetSeven {
     Scanner in = new Scanner(System.in);
     boolean wkSevenDone = false;
 
-    System.out.println("Your are in \"Worksheet Seven: Conditionals\"");
+    System.out.println("Your are in \"Worksheet Seven: Conditionals Part 1\"");
 
     while (!wkSevenDone) {
       try {

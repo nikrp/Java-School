@@ -23,7 +23,7 @@ import java.util.List;
 import java.util.HashMap;
 import java.util.Map;
 
-public class UnitOneOneProject {
+public class MovieMenu {
   public static void main(String[] args) {
     // Create the Scanner Object to Ask for User Input
     Scanner in = new Scanner(System.in);

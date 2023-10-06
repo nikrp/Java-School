@@ -1,45 +1,47 @@
+package directories.WorksheetEightDir;
+
 import java.util.Scanner;
 
-import projects.MovieMenu;
-import projects.PiggyBankProgram;
-
-public class Projects {
+public class WorksheetEight {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         boolean running = true;
 
+        System.out.println("Your are in \"Worksheet Eight: Conditionals Part 2\"");
+        
         while (running) {
             try {
-                System.out.print("Enter the Unit Project to Run (0 to exit): ");
+                System.out.print("Enter the project number: ");
                 int projectNum = in.nextInt();
 
-                System.out.println("\n");
+                System.out.println("");
 
                 if (projectNum == 0) {
                     running = false;
                     continue;
-                } else if (projectNum >= 1 && projectNum <= 2) {
+                } else if (projectNum >= 1 && projectNum <= 4) {
                     callProject(projectNum, args);
-                } else {
-                    System.out.println("Enter a number between 1 and 2 (inclusive)!");
                 }
             } catch (Exception e) {
                 in.nextLine();
             }
         }
-
-        System.out.println("Exiting...");
-        in.close();
-        System.exit(0);
     }
 
     public static void callProject(int projectNum, String[] args) {
         switch (projectNum) {
             case 1:
-                MovieMenu.main(args);
+                ThreeSides.main(args);
                 break;
             case 2:
-                PiggyBankProgram.main(args);
+                FiftyHundredJackpot.main(args);
+                break;
+            case 3:
+                VirusChances.main(args);
+                break;
+            case 4:
+                HonorRollEligable.main(args);
+                break;
         }
     }
 }

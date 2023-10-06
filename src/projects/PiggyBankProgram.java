@@ -23,7 +23,7 @@ import java.text.NumberFormat;
 import java.util.HashMap;
 import java.util.Map;
 
-public class UnitOneTwoProject {
+public class PiggyBankProgram {
 
     public static int toI(Object obj) {
         return Integer.parseInt(obj.toString());
