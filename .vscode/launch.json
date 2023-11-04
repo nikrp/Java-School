@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PaintStore",
+            "request": "launch",
+            "mainClass": "projects.PaintStore",
+            "projectName": "Java-School_b317e60a"
+        },
+        {
+            "type": "java",
+            "name": "Projects",
+            "request": "launch",
+            "mainClass": "Projects",
+            "projectName": "Java-School_b317e60a"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"

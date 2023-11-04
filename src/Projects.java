@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 import projects.MovieMenu;
+import projects.PaintStore;
 import projects.PiggyBankProgram;
 
 public class Projects {
@@ -18,10 +19,10 @@ public class Projects {
                 if (projectNum == 0) {
                     running = false;
                     continue;
-                } else if (projectNum >= 1 && projectNum <= 2) {
+                } else if (projectNum >= 1 && projectNum <= 3) {
                     callProject(projectNum, args);
                 } else {
-                    System.out.println("Enter a number between 1 and 2 (inclusive)!");
+                    System.out.println("Enter a number between 1 and 3 (inclusive)!");
                 }
             } catch (Exception e) {
                 in.nextLine();
@@ -40,6 +41,9 @@ public class Projects {
                 break;
             case 2:
                 PiggyBankProgram.main(args);
+                break;
+            case 3:
+                PaintStore.main(args);
         }
     }
 }
